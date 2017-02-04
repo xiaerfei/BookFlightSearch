@@ -72,7 +72,7 @@
 
 + (instancetype)initBookFlightSearchView
 {
-    BookFlightSearchView *bookFlightSearchView = [[[NSBundle mainBundle] loadNibNamed:@"BookFlightSearchView" owner:nil options:nil] firstObject];
+    BookFlightSearchView *bookFlightSearchView = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"BookFlightSearchView" owner:nil options:nil] firstObject];
     return bookFlightSearchView;
 }
 

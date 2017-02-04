@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"                #开源协议
   s.author             = { "linyi31" => "linyi@jd.com" }
 
-  s.source       = { :git => "https://github.com/xiaerfei/BookFlightSearch.git" }
+  s.source       = { :git => "https://github.com/xiaerfei/BookFlightSearch.git", :tag => s.version.to_s }
 
   s.platform     = :ios, "8.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
   s.requires_arc = true                    #是否使用ARC
